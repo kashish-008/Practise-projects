@@ -29,7 +29,7 @@ This is a static clone of the Netflix India homepage featuring:
 - **External Assets** - Netflix logo and demonstration videos
 
 ## 📁 Project Structure
-
+```bash
 netflix-homepage-clone/
 │
 ├── index.html # Main HTML file
