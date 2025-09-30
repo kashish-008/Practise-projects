@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: white;
+  /* font-family: "Kanit", sans-serif; */
+  font-family: "Caveat", cursive;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 65px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: auto;
+  font-size: 20px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 20;
+}
+
+.logo {
+  /* padding: 90px; */
+  margin-left: 90px;
+  font-weight: 600;
+}
+
+.logo:hover {
+  color: yellow;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 90px;
+}
+
+nav ul li:hover {
+  color: yellow;
+  transform: scale(1.19);
+  transition: all 0.3s 0s linear;
+}
+
+nav ul li {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main .box {
+  background: url(assets/img1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 680px;
+  background-size: max(1250px, 100vw);
+}
+
+.opacity {
+  width: 100%;
+  height: 680px;
+  opacity: 0.3;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  position: absolute;
+  /* top: 10; */
+}
+
+.hero {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: relative;
+  cursor: default;
+  /* pointer-events:none; */
+}
+
+.hero h1 {
+  margin-top: 260px;
+  font-size: 62px;
+  font-weight: 430;
+}
+
+#a2 {
+  text-decoration: underline;
+  cursor: default;
+}
+
+#a2:hover {
+  color: yellow;
+}
+
+.hero h2 {
+  margin-bottom: 15px;
+  font-weight: 430;
+  font-size: 28px;
+}
+
+.hero-button {
+  z-index: 10;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#in1 {
+  width: 315px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  border-radius: 3.5px;
+  outline: none;
+  padding-left: 15px;
+}
+
+#in1::-webkit-input-placeholder {
+  color: rgb(184, 184, 184);
+}
+
+#in1[type="text"] {
+  color: rgb(0, 0, 0);
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#but1 {
+  background-color: rgb(229, 9, 20);
+  color: white;
+  height: 40px;
+  width: 115px;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  border-radius: 3.5px;
+  cursor: pointer;
+  font-family: "Caveat", cursive;
+}
+
+#but1:hover {
+  background-color: rgb(193, 17, 25);
+  transition: all 0.3s 0s linear;
+  color: yellow;
+}
+
+#svg1 {
+  width: 14px;
+  fill: white;
+  margin: auto;
+}
+
+#svg1:hover {
+  fill: yellow;
+}
+
+.feature {
+  text-align: center;
+  font-size: 50px;
+  /* padding: 50px; */
+  margin: 60px 0px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 60px;
+  column-gap: 100px;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.section1 {
+  background-color: rgba(240, 240, 240, 0.409);
+  width: 286px;
+  border-radius: 9px;
+  box-shadow: rgba(205, 205, 205, 0.626) 0px 0px 5px 2px;
+  overflow: hidden;
+} 
+
+.card-image-container{
+    
+}
+
+#card-image {
+  height: 190px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.2s linear;
+ }
+
+#card-image:hover{
+    transform: scale(1.05);
+    /* transition: all 0.3s 0s linear; */
+}
+
+.card-title-container {
+  max-width: 286px;
+  margin: 20px;
+}
+
+.card-title{
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+
+p.desc{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-button #but2 {
+    text-align: center;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    border-radius: 3.5px;
+    cursor: pointer;
+    font-family: "Caveat", cursive;
+}
+
+#but2:hover {
+    transition: all 0.3s 0s linear;
+    color: yellow;
+  }
+
+.card-footer-container {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 22px;
+  cursor: default;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.footer-span1:hover{
+    color: yellow;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#facebook:hover {
+    fill: rgb(10, 110, 217);
+    transition: all 0.3s 0s linear;
+}
+
+#x:hover {
+    fill: white;
+    transition: all 0.3s 0s linear;
+}
+
+#youtube:hover {
+    fill:red;
+    transition: fill 0.3s 0s linear;
+}
+
+#insta:hover path {
+    fill:rgb(242, 107, 247);
+    transition: all 0.3s 0s linear;
+}
+
+.more{
+    text-align: center;
+}
+
+#but3{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(240, 240, 240, 0.409);
+    /* box-shadow: rgba(205, 205, 205, 0.626) 0px 0px 5px 2px; */
+    color: rgb(124, 124, 124);
+    height: 50px;
+    width: 30%;
+    border: 1px solid rgba(205, 205, 205, 0.733);
+    border-radius: 3.5px;
+    margin-top: 50px;
+    font-family: "Caveat", cursive;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#but3:hover{
+    /* background-color: rgba(232, 232, 232, 0.699); */
+    transition: all 0.3s 0s linear;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
