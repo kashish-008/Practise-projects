@@ -30,17 +30,18 @@ A beautiful and responsive recipe website built with **HTML** and **CSS**, featu
 ---
 
 ## 📁 Project Structure
+```bash
 recipe-website/
 │
-├── index.html # Main HTML file
-├── style.css # Main stylesheet
-├── responsive.css # Responsive design styles
-├── assets/ # Images and resources
-│ ├── img1.jpg # Hero background image
-│ ├── grilled.jpg # Grilled chicken image
-│ ├── butter.jpg # Butter chicken image
-│ ├── biryani.jpg # Biryani image
-│ ├── samosas (2).jpg # Samosas image
-│ ├── panner.jpg # Paneer tikka image
-│ └── gulab (2).jpg # Gulab jamun image
-└── README.md # Project documentation
+├── index.html          # Main HTML file
+├── style.css           # Main stylesheet
+├── responsive.css      # Responsive design styles
+├── assets/             # Images and resources
+│   ├── img1.jpg        # Hero background image
+│   ├── grilled.jpg     # Grilled chicken image
+│   ├── butter.jpg      # Butter chicken image
+│   ├── biryani.jpg     # Biryani image
+│   ├── samosas (2).jpg # Samosas image
+│   ├── panner.jpg      # Paneer tikka image
+│   └── gulab (2).jpg   # Gulab jamun image
+└── README.md           # Project documentation
