@@ -1,0 +1,136 @@
+/* Responsive styles */
+
+@media (max-width: 1200px) {
+    .center-right h1 {
+      font-size: 13vh;
+      line-height: 90px;
+    }
+    .page2-bottom h1 {
+      font-size: 40px;
+      line-height: 45px;
+      width: 80%;
+    }
+    .bottom-part2 {
+      padding-top: 200px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    nav {
+      flex-direction: column;
+      gap: 15px;
+    }
+    .center {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+      padding-bottom: 5vh;
+    }
+    .center-right h1 {
+      text-align: left;
+      font-size: 10vh;
+      line-height: 70px;
+    }
+    .page2-bottom {
+      flex-direction: column;
+      padding-left: 40px;
+      padding-top: 5vh;
+      height: auto;
+    }
+    .bottom-part2 {
+      width: 100%;
+      padding-top: 50px;
+      text-align: center;
+    }
+    .bottom-part2 img,
+    .bottom-part2 p {
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .center-left {
+      width: 100%;
+      font-size: 22px;
+    }
+    .center-right h1 {
+      font-size: 7vh;
+      line-height: 60px;
+    }
+    .moving-text h1 {
+      font-size: 60px;
+    }
+    .page2-bottom h1 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+    .black {
+      flex-direction: column;
+    }
+    .black .left,
+    .black .right {
+      width: 100%;
+      height: auto;
+      padding: 2vw;
+    }
+    .black .right img {
+      padding-left: 0;
+      border-radius: 20px;
+    }
+    .name h1 {
+      font-size: 30px;
+    }
+    #fixed-image {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .right h3 {
+      padding: 10px 15px;
+      font-size: 12px;
+    }
+    .center-left {
+      font-size: 18px;
+    }
+    .center-right h1 {
+      font-size: 5.5vh;
+      line-height: 45px;
+    }
+    .moving-text h1 {
+      font-size: 40px;
+    }
+    .page2-bottom h1 {
+      font-size: 24px;
+    }
+    .bottom-part2 img {
+      width: 100%;
+    }
+    .black .left h1 {
+      font-size: 7vw;
+    }
+    nav {
+      padding: 20px 0;
+    }
+    .right {
+      flex-direction: column;
+      gap: 8px;
+    }
+    .gola {
+      height: 40px;
+      width: 40px;
+    }
+    .swiper {
+      padding-left: 2vw;
+      padding-top: 2vw;
+    }
+  }
+  
+  /* Hide scrollToTop on small screens */
+  @media (max-width: 600px) {
+    #scrollToTop,
+    .top {
+      display: none !important;
+    }
+  }
+  
