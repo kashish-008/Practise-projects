@@ -1,0 +1,130 @@
+@media (max-width:860px) {
+    .nav a{
+        display:none;
+    }
+
+    .contact-button{
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+    }
+
+    .company-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .company-container h2{
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+
+    .feature-grid{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .feature-card{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .about-grid{
+        grid-template-columns:repeat(1,1fr);
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .about-card{
+        max-width: 400px;
+        margin: 0 auto; 
+    }
+
+
+}
+
+@media (min-width:860px){
+    .main-section{
+        flex-direction: row;
+        max-width: 1040px;
+    }
+
+    .content-left{
+        text-align: left;
+    }
+
+    .section-label{
+
+    }
+
+    .section-title{
+        padding-left: 0;
+        padding-top: 0.6rem;
+        font-size: 2.8rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .section-description{
+        padding-left: 0;
+        margin-bottom: 1.4rem;
+        font-size: 1rem;
+        width: 92%;
+    }
+
+    .button-group{
+        justify-content: start;
+        padding-left: 0;
+    }
+
+    .section-image{
+        height: 28.5rem;
+        width: 26.5rem;
+        margin-right: 0.8rem;
+    }
+}
+
+@media (max-width:962px){
+    .left-part{
+        display: none;
+    }
+}
+
+@media (max-width:400px){
+    .news-info h2{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:959px){
+
+    .footer-content{
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .left-footer{
+        text-align: center;
+    }
+
+    .social-media{
+        justify-content: center;
+    }
+}
+
+@media (max-width:592px){
+    .footer-grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
