@@ -4,8 +4,7 @@
 
 ---
 
-## Website Live link: https://kashish-008.github.io/Practise-projects/StudySync
-/
+## Website Live link: https://kashish-008.github.io/Practise-projects/StudySync/
 ---
 
 ## 🚀 Features
