@@ -4,6 +4,10 @@
 
 ---
 
+## Website Live link: https://kashish-008.github.io/Practise-projects/StudySync
+/
+---
+
 ## 🚀 Features
 - 📱 **Responsive Design** – Works across desktop, tablet, and mobile  
 - 🎨 **Modern UI** – Clean interface with smooth animations  
