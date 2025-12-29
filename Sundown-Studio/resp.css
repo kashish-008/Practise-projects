@@ -133,4 +133,111 @@
       display: none !important;
     }
   }
+
+
+/* ===============================
+   EXTRA RESPONSIVE OVERRIDES
+   (Do NOT modify existing CSS)
+   =============================== */
+
+/* Mobile & small tablets */
+@media (max-width: 600px) {
+
+  /* Hero section fix */
+  .center {
+    height: auto;
+    padding-bottom: 5vh;
+  }
+
+  .center-right h1 {
+    font-size: 6vh;
+    line-height: 1.1;
+    text-align: left;
+  }
+
+  /* Disable heavy visuals on mobile */
+  .hero-shape,
+  .gooey,
+  .gooey2,
+  .gooey4 {
+    display: none !important;
+  }
+
+  /* Page 4 (black section) */
+  .black {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .black .left,
+  .black .right {
+    width: 100%;
+    height: auto;
+    padding: 5vw;
+  }
+
+  .black .right img {
+    padding-left: 0;
+  }
+
+  /* Swiper fixes */
+  .swiper-slide {
+    width: 80vw !important;
+  }
+
+  .swiper-slide p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .swiper-slide img {
+    width: 120px;
+  }
+
+  /* Footer fixes */
+  #footer h1 {
+    font-size: 18vw;
+    text-align: center;
+  }
+
+  .span {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .footerr {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+
+  .center-right h1 {
+    font-size: 7vh;
+    line-height: 1.1;
+  }
+
+  .page2-bottom {
+    flex-direction: column;
+    height: auto;
+    padding-left: 5vw;
+  }
+
+  .bottom-part2 {
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .bottom-part2 img,
+  .bottom-part2 p {
+    margin: 0 auto;
+  }
+}
+
+
   
