@@ -1,6 +1,10 @@
 # 🎬 Netflix India Homepage Clone
 
 A responsive Netflix India homepage clone built using **HTML** and **CSS** to showcase front-end development skills. This project replicates the visual design and layout of the official Netflix India website.
+---
+
+## Website Live link: https://kashish-008.github.io/Practise-projects/netflix-homepage-clone/
+---
 
 ## 📋 Project Overview
 
