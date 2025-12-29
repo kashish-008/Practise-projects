@@ -4,9 +4,7 @@ A beautiful and responsive recipe website built with **HTML** and **CSS**, featu
 
 ---
 
-## Website Live link: https://kashish-008.github.io/Practise-projects/Recipe-Website
-/
-
+## Website Live link: https://kashish-008.github.io/Practise-projects/Recipe-Website/
 ---
 
 ## 📋 Project Overview
