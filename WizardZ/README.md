@@ -1,1 +1,1 @@
-https://kashish-008.github.io/Practise-projects/Recipe-Website/WizardZ
+https://kashish-008.github.io/Practise-projects/WizardZ
