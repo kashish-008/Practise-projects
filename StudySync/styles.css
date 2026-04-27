@@ -37,6 +37,7 @@ body{
     align-items: center;
     margin: 0 auto;
     padding: 1rem;
+    overflow: hidden;
 }
 
 .logo{
@@ -190,6 +191,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .section-image{
