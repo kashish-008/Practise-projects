@@ -416,7 +416,7 @@ body{
     display: flex;
     background-color: var(--light-gray);
     width: 74vw;
-    /* height:300px ; */
+    height:300px ;
     margin: 0 auto;
     border-radius: 0.3rem;
 }
