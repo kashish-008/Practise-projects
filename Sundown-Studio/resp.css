@@ -1,161 +1,107 @@
-/* Responsive styles */
+/* Responsive Styles for Sundown Studio */
 
-@media (max-width: 1200px) {
-    .center-right h1 {
-      font-size: 13vh;
-      line-height: 90px;
-    }
-    .page2-bottom h1 {
-      font-size: 40px;
-      line-height: 45px;
-      width: 80%;
-    }
-    .bottom-part2 {
-      padding-top: 200px;
-    }
-  }
-  
-  @media (max-width: 992px) {
-    nav {
-      flex-direction: column;
-      gap: 15px;
-    }
-    .center {
-      flex-direction: column;
-      align-items: flex-start;
-      height: auto;
-      padding-bottom: 5vh;
-    }
-    .center-right h1 {
-      text-align: left;
-      font-size: 10vh;
-      line-height: 70px;
-    }
-    .page2-bottom {
-      flex-direction: column;
-      padding-left: 40px;
-      padding-top: 5vh;
-      height: auto;
-    }
-    .bottom-part2 {
-      width: 100%;
-      padding-top: 50px;
-      text-align: center;
-    }
-    .bottom-part2 img,
-    .bottom-part2 p {
-      margin: 0 auto;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .center-left {
-      width: 100%;
-      font-size: 22px;
-    }
-    .center-right h1 {
-      font-size: 7vh;
-      line-height: 60px;
-    }
-    .moving-text h1 {
-      font-size: 60px;
-    }
-    .page2-bottom h1 {
-      font-size: 32px;
-      line-height: 40px;
-    }
-    .black {
-      flex-direction: column;
-    }
-    .black .left,
-    .black .right {
-      width: 100%;
-      height: auto;
-      padding: 2vw;
-    }
-    .black .right img {
-      padding-left: 0;
-      border-radius: 20px;
-    }
-    .name h1 {
-      font-size: 30px;
-    }
-    #fixed-image {
-      display: none;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .right h3 {
-      padding: 10px 15px;
-      font-size: 12px;
-    }
-    .center-left {
-      font-size: 18px;
-    }
-    .center-right h1 {
-      font-size: 5.5vh;
-      line-height: 45px;
-    }
-    .moving-text h1 {
-      font-size: 40px;
-    }
-    .page2-bottom h1 {
-      font-size: 24px;
-    }
-    .bottom-part2 img {
-      width: 100%;
-    }
-    .black .left h1 {
-      font-size: 7vw;
-    }
-    nav {
-      padding: 20px 0;
-    }
-    .right {
-      flex-direction: column;
-      gap: 8px;
-    }
-    .gola {
-      height: 40px;
-      width: 40px;
-    }
-    .swiper {
-      padding-left: 2vw;
-      padding-top: 2vw;
-    }
-  }
-  
-  /* Hide scrollToTop on small screens */
-  @media (max-width: 600px) {
-    #scrollToTop,
-    .top {
-      display: none !important;
-    }
+/* ========== Laptops & Medium Screens (max-width: 1024px) ========== */
+@media (max-width: 1024px) {
+  .center-right h1 {
+    font-size: 12vw;
   }
 
+  .page2-bottom h1 {
+    font-size: 40px;
+    width: 60%;
+  }
 
-/* ===============================
-   EXTRA RESPONSIVE OVERRIDES
-   (Do NOT modify existing CSS)
-   =============================== */
+  .bottom-part2 {
+    width: 35%;
+  }
+}
 
-/* Mobile & small tablets */
-@media (max-width: 600px) {
+/* ========== Tablets & Mobile Devices (max-width: 768px) ========== */
+@media (max-width: 768px) {
+  /* Navigation Fixes */
+  nav {
+    padding: 20px 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-  /* Hero section fix */
+  .right {
+    gap: 8px;
+  }
+
+  .right h3 {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+
+  /* Hero Section Stacking */
   .center {
+    flex-direction: column-reverse;
+    align-items: flex-start;
     height: auto;
     padding-bottom: 5vh;
+    gap: 20px;
+  }
+
+  .center-left {
+    width: 100%;
+    font-size: 20px;
   }
 
   .center-right h1 {
-    font-size: 6vh;
-    line-height: 1.1;
+    font-size: 13vw;
+    line-height: 0.9;
     text-align: left;
   }
 
-  /* Disable heavy visuals on mobile */
+  .vi {
+    padding-top: 5vh;
+  }
+
+  /* Page 2 (Moving Text) */
+  .moving-text h1 {
+    font-size: 80px;
+  }
+
+  .gola {
+    height: 45px;
+    width: 45px;
+    margin: 1vw 2vw;
+  }
+
+  /* Page 2 Bottom Section */
+  .page2-bottom {
+    flex-direction: column;
+    padding: 6vh 4vw;
+    gap: 30px;
+    min-height: auto;
+  }
+
+  .page2-bottom h1 {
+    width: 100%;
+    font-size: 32px;
+    line-height: 1.1;
+  }
+
+  .bottom-part2 {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .bottom-part2 img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .bottom-part2 p {
+    width: 100%;
+    max-width: 300px;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+
+  /* Hide gooey visual shapes on small screens to save performance & prevent layout breaks */
   .hero-shape,
   .gooey,
   .gooey2,
@@ -163,81 +109,172 @@
     display: none !important;
   }
 
-  /* Page 4 (black section) */
+  /* Page 3 Elements & Fixed Image */
+  .name h1 {
+    font-size: 26px;
+  }
+
+  .name span {
+    font-size: 14px;
+    text-align: right;
+  }
+
+  #fixed-image {
+    display: none !important;
+  }
+
+  /* Page 4 (Black Container) */
   .black {
     height: auto;
     flex-direction: column;
   }
 
-  .black .left,
-  .black .right {
+  .black .left {
     width: 100%;
     height: auto;
-    padding: 5vw;
+    padding: 40px 30px;
+  }
+
+  .black .left h1 {
+    font-size: 8vw;
+  }
+
+  .black .left p {
+    font-size: 15px;
+    padding-top: 15px;
+  }
+
+  .black .right {
+    width: 100%;
+    height: 300px;
+    padding: 0 20px 20px 20px;
   }
 
   .black .right img {
     padding-left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 
-  /* Swiper fixes */
+  /* Page 5 (Swiper) */
   .swiper-slide {
-    width: 80vw !important;
+    width: 70vw !important;
+    padding-right: 6vw;
   }
 
   .swiper-slide p {
-    width: 100%;
     font-size: 14px;
+    width: 100%;
   }
 
   .swiper-slide img {
-    width: 120px;
+    width: 100px;
   }
 
-  /* Footer fixes */
+  /* Footer & Scroll Reveal Override for Mobile */
+  .page6 {
+    display: none !important; /* Hide spacer on mobile */
+  }
+
+  #footer {
+    position: relative !important; /* Normal scroll flow instead of fixed */
+    height: auto !important;
+    min-height: auto;
+    z-index: 11 !important;
+    padding: 40px 20px;
+  }
+
+  #footer-div {
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+    gap: 30px;
+    align-items: flex-start;
+    background-color: transparent; /* Makes background match the footer color */
+  }
+
+  .footerl {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .footerr {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .input-container {
+    width: 100%;
+    margin-top: 15px;
+  }
+
   #footer h1 {
     font-size: 18vw;
     text-align: center;
+    padding: 40px 0 20px 0;
+    margin: 0;
   }
 
   .span {
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    gap: 10px;
+    gap: 12px;
+    padding: 20px 0 0 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .footerr {
-    width: 100%;
-    text-align: center;
+  #footer-bottom {
+    display: none;
+  }
+
+  /* Back to Top button position on mobile */
+  .top {
+    bottom: 20px;
+    right: 20px;
   }
 }
 
-/* Tablets */
-@media (max-width: 768px) {
+/* ========== Small Mobile Devices (max-width: 480px) ========== */
+@media (max-width: 480px) {
+  nav {
+    padding: 15px 0;
+  }
+
+  .right h3 {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
 
   .center-right h1 {
-    font-size: 7vh;
-    line-height: 1.1;
+    font-size: 15vw;
   }
 
-  .page2-bottom {
-    flex-direction: column;
-    height: auto;
-    padding-left: 5vw;
+  .center-left {
+    font-size: 17px;
   }
 
-  .bottom-part2 {
-    width: 100%;
-    padding-top: 40px;
-    text-align: center;
+  .moving-text h1 {
+    font-size: 55px;
   }
 
-  .bottom-part2 img,
-  .bottom-part2 p {
-    margin: 0 auto;
+  .page2-bottom h1 {
+    font-size: 24px;
+  }
+
+  .name h1 {
+    font-size: 20px;
+  }
+
+  .name span {
+    font-size: 12px;
+  }
+
+  .black .left h1 {
+    font-size: 10vw;
+  }
+
+  .swiper-slide {
+    width: 80vw !important;
   }
 }
-
-
-  
